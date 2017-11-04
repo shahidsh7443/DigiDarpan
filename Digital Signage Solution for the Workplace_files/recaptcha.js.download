@@ -1,0 +1,25 @@
+// Submit the captcha with the token
+function onRecaptchaSubmit(token) {
+  $('#'+window.recaptchaform).find("[name='g-recaptcha-response']").eq(0).val(token);
+  document.getElementById(window.recaptchaform).submit();
+}
+
+// Validate the captcha and get the token
+function recaptchaValidate(event) {
+  event.preventDefault();
+  window.recaptchaform = event.target.id;
+  grecaptcha.execute(window.recaptchaObjects[event.target.getElementsByClassName("g-recaptcha")[0].id]);
+}
+
+// render each captcha on the page with a unique id and get the client info
+function loadRecaptchas() {
+  window.recaptchaObjects = {};
+  var els = document.getElementsByClassName("g-recaptcha");
+
+  [].forEach.call(els, function (el) {
+    window.recaptchaObjects[el.id] = grecaptcha.render(el, {
+      'sitekey' : '6LenZxwUAAAAAByg7o1I7cLYC_Yp62PR1eAfyxvZ',
+      'size' : 'invisible',
+      'callback' : 'onRecaptchaSubmit'});
+  });
+}

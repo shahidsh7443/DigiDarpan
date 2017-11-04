@@ -1,0 +1,10 @@
+        _vsrkpd.d = [{"cmp":"CA6ph02KT2EiFQC1","num":"8004761567","repl":""}];
+
+if( _vsrkpd.d ) {
+        _vsrkpd.write_numdata('rkpd_CA6ph02KHRsF2QET', _vsrkpd.d, 3600);
+    _vsrkpd.rewrite_document();
+} else {
+    _vsrkpd._ds.parseDomForNumbers();
+    _vsrkpd.getnum_error( 'rewrite not found' );
+}
+
