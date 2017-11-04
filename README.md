@@ -1,5 +1,9 @@
 # DigiDarpan
 A project on Digital Signage by Razorbee Online Solutions Pvt Limited, To enhance productivity and creative visualization of workplaces like,Hospitals,Hotels,Airports,Shopping Malls etc.
+
+
+
+
 Features:
 Select from Raspberry Pi, Intel NUC, Chromebox or Chromecast, download the image (or app) & player is ready
 
