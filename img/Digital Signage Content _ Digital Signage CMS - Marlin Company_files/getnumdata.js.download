@@ -1,0 +1,9 @@
+        _vsrkpd.ckw_get_number_data();
+
+if( _vsrkpd.d ) {
+    _vsrkpd.rewrite_document();
+} else {
+    _vsrkpd._ds.parseDomForNumbers();
+    _vsrkpd.getnum_error( 'rewrite not found' );
+}
+
