@@ -10,7 +10,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 body{
-	overflow-x:hidden;
+	overflow-x:hidden !important;
 }
 html {
   line-height: 1;
@@ -86,17 +86,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   margin-left: 0px;
 }
 .listcontents{
-	padding-left:45%;
+	padding-left:55%;
 }
 #whoweare-mast
 {
-	background-size:100% 85%;
+	background-size:100% 100%;
 	background-repeat:no-repeat;
 }
 .overlay
 {
 	background-color:rgba(0,0,0,0.6);
-	height:85%;
+	height:100%;
 	width:100%;
 	
 }
@@ -109,6 +109,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 @media screen and (max-width:490px)
 {
+	body{
+	overflow-x:hidden;
+}
 	.navbar .logo 
 	{
 		width:66% !important;
@@ -122,12 +125,27 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	}
 	.masthead__heading
 	{
-		margin-top: 50%!important;
+		margin-top: 105%!important;
 	}
+	 .benefits__img {
+      width: 295px !important;
+    }
+	#whoweare-mast
+{
+	background-size:100% 70% !important;
+	background-repeat:no-repeat;
+}
+.benefits__heading .bb{
+margin-top:-90px!important;
+}
 	
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) 
+{
+body{
+	overflow-x:hidden;
+}	
   .benefit-list, .page-head, .sect-container, .sect-head-container, .stagger, .mast-messaging, .tech-head, .tech-features, .tech-cta, .happy-customers, .client-list, .featured-clients, .blog-holder {
     width: auto;
     min-width: 0;
@@ -6348,7 +6366,7 @@ table.rounded thead th, table.rounded thead td, table.rounded caption + tbody tr
 }
 
 .navbar .logo {
-  margin-right: 65px;
+  margin-right: 40%;
 }
 
 @media only screen and (max-width: 768px) {
