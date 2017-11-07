@@ -86,7 +86,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   margin-left: 0px;
 }
 .listcontents{
-	padding-left:55%;
+	padding-left:50%;
 }
 #whoweare-mast
 {
@@ -1321,7 +1321,7 @@ img {
 
 .navbar li > a {
   display: block;
-  padding: 0 10px;
+  padding: 0 30px;
   white-space: nowrap;
   color: #fff;
   text-shadow: 0 1px 2px #0a2050, 0 1px 0 #0a2050;
