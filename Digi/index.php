@@ -1068,7 +1068,7 @@ Razorbee’s  Digital signage solution is leading the way to tell your messages 
 
   </div>
 </section></article>-->
-<div class="contact-panel" id="contact">
+<div class="contact-panel" id="contact" style="height:90%;">
   <div class="contact-panel__header">
     <h2 class="contact-panel__title">
       How can we help improve your workplace?
@@ -1077,6 +1077,9 @@ Razorbee’s  Digital signage solution is leading the way to tell your messages 
       Get in touch for a free demo!
     </p>
   </div>
+</br>
+</br>
+
   <div class="contact-panel__form">
   <form id="b218decf73a7f23577eef1e5b53fbef88be92af368b5" method="post" action="http://digidarpan.com/" >
 <div class="hiddenFields">
@@ -1090,42 +1093,55 @@ Razorbee’s  Digital signage solution is leading the way to tell your messages 
 
     <input type="hidden" name="lead_source" value="web_contact_ppc">
     <input type="hidden" name="retURLOverride" value="">
-	<div class="row">
+	<div class="row" >
+		<div class="col-md-6">
+<h3 style="color:white;"><u><strong>About Us</strong></u></h3>
+      	      <p style="font-size:20px;text-align:left;color:white;">
+								<strong>Razorbee</strong> is a software technology company that specializes in providing digital signage solutions and services for Hospitals.
+</p>
+<p style="font-size:16px;text-align:left;color:white;">We are a group of engineers with over all 25+ together years of experience in technology
+and providing successful solutions and services to IT sector.</p>
+		</div>
 	<div class="col-md-6">
-    <div class="row">
+		<div class="row">
+		<div class="col-lg-12">
+		<h5 style="color:White;margin-bottom:15px;"><strong><u>Address</u></strong></h5>
+				<div class="textwidget" style="border:2px dashed white;padding-left:5px;">
+			<p style="font-size:25px;color:white;">Razorbee Online Solutions Pvt Ltd</p>
+	<p style="color:white;font-size:20px;">
+	#21, 1st floor, Beside Anjaneya Swamy temple street,
+
+	Adugodi, Koramangala 8th block,Bangalore: 560076
+	karnataka, India</p>
+	</div>
+		</div>
+	</div>
+  <!--  <div class="row" style="margin-top:20px;">
       <div class="col-lg-6" style="width:100%;">
-        <label for="name">Name*</label>
+				<h5 style="color:White;margin-bottom:15px;"><strong><u>Contact-Us</u></strong></h5>
+        <label for="name">Name:*</label>
         <input name="name" id="name" required="" style="width:100%;" >
       </div>
 
     </div>
-    <div class="row">
+    <div class="row" style="margin-top:15px;">
       <div class="col-md-3">
-        <label for="phone">Phone*</label>
+        <label for="phone">Phone:*</label>
         <input type="text" name="phone" id="phone" required="" >
       </div>
-	  <div class="col-md-3  col-md-offset-3">
-        <label for="email">Email*</label>
+	  <div class="col-md-3 col-md-offset-4">
+        <label for="email">Email:*</label>
         <input type="text" name="email" id="email" required="">
       </div>
 	  </div>
-	  <div class="row">
-        <label for="message">Message</label>
-        <textarea name="description" id="message" style="width:97%;"></textarea>
+	  <div class="row" style="margin-top:15px;">
+			  <div class="col-lg-6" style="width:100%;">
+        <label for="message">Message:</label>
+        <textarea name="description" id="message"></textarea>
+			</div>
 	</div>
       <button type="submit" class="contact-panel__button">Submit</button>
-  </div></form>
-  <div class="col-md-6">
-  <h5 style="color:White;"><strong><u>Address</u></strong></h5>
-			<div class="textwidget" style="border:2px dashed white;padding-left:5px;">
-		<p style="font-size:25px;color:white;">Razorbee Online Solutions Pvt Ltd</p>
-<p style="color:white;font-size:20px;">
-#21, 1st floor, Beside Anjaneya Swamy temple street,
-
-Adugodi, Koramangala 8th block,Bangalore: 560076
-karnataka, India</p>
-</div>
-  </div>
+  </div></form>-->
   </div>
 
 </div>
