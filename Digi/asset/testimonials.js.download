@@ -1,0 +1,37 @@
+// Rotates testimonials on the masthead
+
+var testimonials = [
+	"Marlin’s digital signs have helped us to provide our employees with a wide array of information seamlessly.",
+	"The signs are sleek, informative, and allow us to manage our communication from a single point.",
+	"When associates see our messages cycling through, they become more engaged, more educated.",
+	"With the Marlin reporting feature, we can say with certainty that a particular workplace issues was communicated to employees.",
+	"I really appreciate the Marlin Board because it communicates critical information to my staff.",
+	"The Marlin system can contribute significantly to the overall culture of employment engagement.",
+	"I love that I have the ability to instantly share information with employees."
+];
+
+setTimeout(function() {
+	window.testimonial_num = Math.floor(Math.random()*(testimonials.length));
+	console.log('Testimonial Length: ' + testimonials.length);
+	console.log(window.testimonial_num);
+
+	var body_text = $('#masthead__text--show');
+	var body_text_hidden = $('#masthead__text--hidden');
+	function loop(testimonials, body_text, body_text_hidden) {
+		body_text.fadeOut(1000, function() {
+			window.loopdeloop = setTimeout(function(testimonials, body_text, body_text_hidden) {
+				body_text.text("“" + testimonials[window.testimonial_num] + "”");
+				body_text_hidden.text("“" + testimonials[window.testimonial_num] + "”");
+				window.testimonial_num = window.testimonial_num + 1;
+				if (window.testimonial_num == testimonials.length) {
+					window.testimonial_num = 0;
+				}
+				body_text.fadeIn(1000, function() {
+					window.secondloopdeloop = setTimeout(loop, 2000, testimonials, body_text, body_text_hidden);
+				});
+			}, 500, testimonials, body_text, body_text_hidden);
+		});
+	}
+
+	loop(testimonials, body_text, body_text_hidden);
+}, 25);

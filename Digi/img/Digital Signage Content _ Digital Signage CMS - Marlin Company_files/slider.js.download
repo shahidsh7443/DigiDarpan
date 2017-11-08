@@ -1,0 +1,22 @@
+$(function() {
+
+    $('.swiper-container').each(function (index) {
+        var mySwiper = new Swiper($(this)[0],{
+            //Your options here:
+            mode:'horizontal',
+            loop: true,
+            calculateHeight: true
+        });
+
+        $('.swiper-gallery').find('.swiper-right-btn').on('click', function(){
+            mySwiper.swipeNext();
+            return false;
+        });
+        $('.swiper-gallery').find('.swiper-left-btn').on('click', function(){
+            mySwiper.swipePrev();
+            return false;
+        });
+
+    });
+
+});

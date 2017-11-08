@@ -1,0 +1,107 @@
+<div class="col-lg-12 nav_parent">
+        <div class="visible-xs-inline-block menu">
+        	<img src="img/menu.png" title="Menu" width="30" height="21">
+            <p>Menu</p>
+        </div>
+    	<div class="idname visible-xs-inline-block text-right">
+    	<h4>Nagaraja Rao, DTM</h4>
+        <p>Candidate for International Director, 2015-17, Reg 13</p>
+        </div>
+    	<ul class="nav">
+        	<li class="active"><div class="down-arrow hidden-xs"></div><a href="#home">Home</a></li>
+            <li class=""><div class="down-arrow hidden-xs"></div><a href="#about">About</a></li>
+            <li><div class="down-arrow hidden-xs"></div><a href="#why">Why Nagaraja?</a></li>
+            <li><div class="down-arrow hidden-xs"></div><a href="#achievements">Achievements</a></li>
+            <li><div class="down-arrow hidden-xs"></div><a href="#testimonials">Testimonials</a></li>
+            <li><div class="down-arrow hidden-xs"></div><a href="#downloads">Resources</a></li>
+            <!--<li><div class="down-arrow hidden-xs"></div><a href="#appointments">Appointments</a></li>-->
+            <li><div class="down-arrow hidden-xs"></div><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+	
+	
+	
+	
+	<li class="slider2 " style="display: block; left: 1349px; position: absolute; overflow: hidden; height: 100%; width: 1349px; top: 0px; z-index: 2; opacity: 1;">
+                <img src="http://localhost/razorbee/nagaraj/wp-content/uploads/2015/11/slider2.png" alt="Toastmaster, Entrepreneur, Coach, Coffee Roaster and Connoisseur" style="backface-visibility: hidden; position: absolute; left: 0px; top: -111.817px; z-index: -1; max-width: none; height: 591.633px; width: 1349px;">
+        <div class="intro text-left">
+            <div class="container">
+                                
+                                    <span class="tt-title animated fadeInUp delay-3" style="">Toastmaster, Entrepreneur, Coach,</span>
+                
+                                    <span class="tt-title animated fadeInUp delay-4" style="">Coffee Roaster and Connoisseur</span>
+                            </div>
+        </div> <!-- .intro -->
+    </li>
+	
+	
+	
+	
+
+  $(document).on("scroll", onScroll);
+
+ 
+
+$('a[href^="#"]').on('click', function (e) {
+
+      e.preventDefault();
+
+        $(document).off("scroll");
+
+         $('a').each(function () {
+
+            $(this).removeClass('active');
+
+        })
+
+        $(this).addClass('active');
+
+         var target = this.hash,
+
+         menu = target;
+
+         $target = $(target);
+
+       $('html, body').stop().animate({
+
+            'scrollTop': $target.offset().top+2
+
+        }, 600, 'swing', function () {
+
+            window.location.hash = target;
+
+            $(document).on("scroll", onScroll);
+
+        });
+
+    });
+
+});
+
+ 
+
+function onScroll(event){
+
+    var scrollPos = $(document).scrollTop();
+
+    $('#sidebar a').each(function () {
+
+        var currLink = $(this);
+
+       var refElement = $(currLink.attr("href"));
+
+        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+            $('#sidebar ul li a').removeClass("active");
+
+            currLink.addClass("active");
+
+        }
+
+        else{
+
+            currLink.removeClass("active");
+
+        }
+
+    });
+}
