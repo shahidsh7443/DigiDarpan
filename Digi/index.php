@@ -6,28 +6,16 @@
 	    <title>DigiDarpan DigitalSignage Solutions</title>
 	    <meta name="Digital Signage" content="Digital Signage Solutions designed for the Workplace by Razorbee Online Solutions Pvt Ltd">
 	    <meta name="Digital Signage" content="">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
- 		<!-- Facebook Metadata /-->
-
-		<link rel="stylesheet" href="css/animate.min.css">
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="css/templatemo-style.css">
-		<script src="js/jquery.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.singlePageNav.min.js"></script>
-		<script src="js/typed.js"></script>
-		<script src="js/wow.min.js"></script>
-		<script src="js/custom.js"></script>
-  <meta name="author" content="humans.txt">
-  <link rel="shortcut icon" href="img/favicon.ico">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!-- Facebook Metadata /-->
+				<link rel="stylesheet" href="css/templatemo-style.css">
+		  <link rel="shortcut icon" href="img/favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <link rel="stylesheet" href="asset/gumby.css">
   <script src="./asset/modernizr-2.6.2.min.js.download"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109331748-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -36,7 +24,15 @@
 
   gtag('config', 'UA-109331748-1');
 </script>
+<script>
+$(function () {
 
+ $('.navbar-collapse ul li a').on('click', function() {
+	 $('.navbar-collapse li.active').removeClass('active');
+	 $(this).closest("li").addClass("active");
+ });
+});
+  </script>
 <script>
 $(function(){
 
@@ -64,8 +60,6 @@ $(function(){
 </script>
 <body class="testimonials-landing about_landing about_wrapper marlin-product-landing-page digital-signage industry-landing-page" style="">
 <!-- Google Tag Manager -->
-<noscript>&lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-TWSNQK"
-height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
 <!-- End Google Tag Manager -->
 <!--	<div class="navcontain">
     <nav class="navbar unfixed" gumby-fixed="1" id="nav1" style="top: 0px;">
@@ -122,9 +116,9 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
 	          </a></a>
 				</div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav navbar-right">
+					<ul class="nav navbar-nav navbar-right" style="margin-right:-175px;">
 						<li><a href="#" onclick="closeFunction()" >HOME</a></li>
-						<li><a href="#about" onclick="closeFunction()" >ABOUT</a></li>
+						<li><a href="#Why_DigiDarpan" onclick="closeFunction()" >Why DigiDarpan</a></li>
 						<li><a href="#contact" onclick="closeFunction()" >CONTACT</a></li>
 						<li class="last-three">
 
@@ -153,7 +147,10 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
 
 
   <style>
-
+	.navbar-collapse  li.active a {
+	    color:black !important;
+			background-color: #00a651 !important;
+	}
     .cell {
       display: table-cell;
     }
@@ -815,12 +812,23 @@ body{
 				<h2 class="benefits__mainHeading">The Benefits of Digital Signage</h2>
 			</div>
 		</header>-->
-		<section id="about" style="background-color: #F5F6F9 !important;">
-		<div class="row" style="padding-top:50px;">
+		<section id="Why_DigiDarpan" style="background-color: #F5F6F9 !important;">
+		<div class="row" style="padding-top:40px;">
 		<div class="col-md-4">
-		<h3>About<strong>Us</strong></h3>
-		<p style="font-size:16px;text-align:left;padding-left:20px;">RazorBee, a Bangalore based fast growing company, provides sharp-edge solutions for all types of software development and software products &nbsp;and IT services that enhances a business worldwide prosperity.Having the experience of more than fifteen years, it is consistently recognised for its fresh and innovative ideas and applications. It has two wings based on its activities <strong>&nbsp;Services and Products</strong></p>
-<p style="font-size:16px;text-align:left;padding-left:20px;">Razorbee mainly focused &nbsp;on quality, innovation, &amp; speed. We utilized technology to bring results to grow our clients businesses. We pride ourselves in great work ethic, integrity, and end-results. Throughout the years Razorbee has been able to create stunning, award winning designs in multiple verticals while allowing our clients to obtain an overall better web presence.</p>
+		<h3>Why <strong>DigiDarpan?</strong></h3>
+		<ol>
+		<p style="font-size:16px;text-align:left;padding-left:5px; padding-top:0px;">
+			DigiDarpan is a complete digital signage solution.No matter which market you’re in, DigiDarpan is a powerful solution,used to increase brand awareness and build customer loyalty through eye-caching visual display experience.
+</p>
+<p style="font-size:16px;text-align:left;padding-left:5px;padding-top:15px;">
+Using DigiDarpan, it’s easy to create a digital signage solution that will impress your audience. No one connects your message to your target audience like DigiDarpan.
+</p>
+<p style="font-size:16px;text-align:left;padding-left:5px;padding-top:15px;">
+With integrated, end-to-end digital signage solution for customer, DigiDarpan is your single source provider.We provide device to eye-catching template and also with 24X7 customer support.
+</p>
+<p style="font-size:16px;text-align:left;padding-left:5px;">
+Razorbee’s  Digital signage solution is leading the way to tell your messages and brand  from  medium to new levels.
+</p>
 </div>
 <div class="col-md-8">
 <img src="img/dh1.jpg" class="img-rounded" style="background-size:cover; !important;background-repeat:no-repeat !important;width:100%;margin-top: 55px;">
@@ -828,13 +836,15 @@ body{
 </div>
 <div class="row">
 <div class="col-md-8">
-<img src="img/digital_signage-2.jpg" class="img-rounded" style="background-size:cover; !important;background-repeat:no-repeat !important;width:100%;margin-top: 30px;">
+<img src="img/digital_signage-2.jpg" class="img-rounded" style="background-size:cover; !important;background-repeat:no-repeat !important;width:100%;margin-top: 0px;">
 </div>
 <div class="col-md-4">
-<h5  style="margin-top:23px;"><strong>Philosophy</strong></h5>
-<p style="font-size:16px;text-align:left;padding-right:20px;">Our company philosophy is to create the kind of website that most businesses want: easy to find, stylish and appealing, quick loading, mobile responsive and easy to buy from.</p>
-<h5 style="margin-top:30px;"><strong>Mission</strong></h5>
-<p style="font-size:16px;text-align:left;padding-right:20px;">We’ve designed our entire process and products around providing everything a small businesses needs when they’re starting out – ensuring that working with us is always a quick, easy and hassle-free experience. We give our clients full control of their website without a ridiculous price tag, and our friendly team offers their expertise even after your website is live.</p>
+	<p style="font-size:16px;text-align:left;padding-left:20px;padding-top:50px;">
+	At DigiDarpan, we design every Digital Signage Solution from the ground up, to meet your needs. Whether it's a single professional display network, encompassing hundreds of professional displays or interactive signage solution.
+	</p>
+	<p style="font-size:16px;text-align:left;padding-left:20px;padding-top:15px;">
+	Take engagement to a new level with DigiDarpan that reach audiences in many industries, including hospitality, healthcare, retail, entertainment, restaurant and school.
+	</p>
 <!--<h5 style="margin-top:35px;" class="hidden-lg hidden-md visible-sm"><strong>Value</strong></h5>
 <p class="hidden-lg hidden-md visible-sm visible-xs" style="font-size:13px;text-align:left;">Razorbee is a sincere company &nbsp;including a group of experienced developer and IT specialist with a straight forward vision. To maintain customer’s &nbsp;satisfaction and long-term relationship with them is our main vision that we always hold in hand when running the organisation.</p>
 --></div>
@@ -909,7 +919,7 @@ body{
 				      <p></p>
 
 				      <p>
-					      <b>Dennis Stupka</b>
+					      <b>Mr.Arun Mishra </b>
 					      <br>
 					      Administrator
 					      <br>
@@ -927,7 +937,7 @@ body{
 				      <p class="leadin__quote">“Helped us in promoting the facilities provided by our Hospital,timing of various checkup , timings of Doctors and Different working sectors along with there locative information was displayed which was appreciated by the visitors and OPD's .”</p>
               <p></p>
 				      <p>
-					      <b>Jeff Steiner</b>
+					      <b>PA.Ramnath</b>
 					      <br>
 					      Practicing Administrator
 					      <br>
@@ -990,23 +1000,74 @@ body{
 
 
 	<article class="happy-customers"  style="background-color: #F5F6F9 !important;">
-		<h2>Still not convinced?</h2>
+		<h2>Our Satisfied Clients</h2>
 	    <p>Check out the companies we have transformed below or contact us to learn more.</p>
-	    <ul class="client-list">
-	      <li><img src="./asset/img_clients_logo_pepsico.gif" alt="Pepsico"></li>
-	      <li><img src="./asset/img_clients_logo_safeway.gif" alt="Safeway"></li>
-	      <li><img src="./asset/img_clients_logo_coke.gif" alt="Coca-Cola Enterprises"></li>
-	      <li><img src="./asset/img_clients_logo_paychex.gif" alt="Paychex"></li>
-	      <li><img src="./asset/img_clients_logo_rustoleum.gif" alt="Rust Oleum"></li>
-	      <li><img src="./asset/img_clients_logo_westrock.gif" alt="Westrock"></li>
-	      <li><img src="./asset/img_clients_logo_intpaper.gif" alt="International Paper"></li>
-	      <li><img src="./asset/img_clients_logo_wm.gif" alt="Waste Management"></li>
-	      <li><img src="./asset/img_clients_logo_hilton.gif" alt="Hilton"></li>
-	      <li><img src="./asset/img_clients_logo_republic.gif" alt="Republic Services"></li>
-	      <li><img src="./asset/img_clients_logo_greenmountain.gif" alt="Green Mountain Coffee Roasters"></li>
-	      <li><img src="./asset/img_clients_logo_bemis.gif" alt="Bemis"></li>
-	    </ul>
-    </article>
+	    <div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+					<img src="img/surewaves.png" alt="Filezala" style="height: 80px !important;width: 175px;">
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+	     <img src="img/invest365.png" alt="Safeway" style="height: 80px !important;width: 175px;">
+		 </div>
+		 <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+		<img src="img/constructions.png" alt="Safeway" style="height: 80px !important;width: 175px;">
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+ <img src="img/nexgen.png" alt="Safeway" style="height: 80px !important;width: 175px;">
+</div>
+</div>
+<div class="row" style="margin-top:30px;">
+	<div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+		<img src="img/modwedding.png" alt="Filezala" style="height: 80px !important;width: 175px;">
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+ <img src="img/caree4sure.png" alt="Safeway" style="height: 80px !important;width: 175px;">
+</div>
+<div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+<img src="img/bhagawati.png" alt="Safeway" style="height: 80px !important;width: 175px;">
+</div>
+<div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+<img src="img/happywandered.png" alt="Safeway" style="height: 80px !important;width: 175px;">
+</div>
+</div>
+    </article><!--<article class="happy-customers"  style="background-color: #F5F6F9 !important;">
+			<h2>Still not convinced?</h2>
+		    <p>Check out the companies we have transformed below or contact us to learn more.</p>
+		<section class="section-white">
+  <div class="container">
+
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <!--<ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <!--<div class="carousel-inner">
+        <div class="item active">
+          <img src="img/u4url.png" alt="...">
+        </div>
+        <div class="item">
+          <img src="img/zenrays.png" alt="...">
+        </div>
+        <div class="item">
+          <img src="img/filezala.png" alt="Filezala">
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <!--<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+
+  </div>
+</section></article>-->
 <div class="contact-panel" id="contact">
   <div class="contact-panel__header">
     <h2 class="contact-panel__title">
@@ -1070,55 +1131,3 @@ karnataka, India</p>
 </div>
   <!-- Grab Google CDN's jQuery, fall back to local if offline -->
   <!-- 2.0 for modern browsers, 1.10 for .oldie -->
-  <script>
-  var oldieCheck = Boolean(document.getElementsByTagName('html')[0].className.match(/\soldie\s/g));
-  if(!oldieCheck) {
-  document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"><\/script>');
-  } else {
-  document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"><\/script>');
-  }
-  </script><script src="asset/jquery.min.js.download"></script>
-  <script>
-  if(!window.jQuery) {
-  if(!oldieCheck) {
-    document.write('<script src="/components/gumby/js/libs/jquery-2.0.2.min.js"><\/script>');
-  } else {
-    document.write('<script src="/components/gumby/js/libs/jquery-1.10.1.min.js"><\/script>');
-  }
-  }
-  </script>
- <script>
-        $(window).resize(function(e){
-            if($(document).width() < 1167){
-                $('.at4-share-outer.addthis-smartlayers.addthis-smartlayers-desktop').css({display:"none"});
-            }else{
-                $('.at4-share-outer.addthis-smartlayers.addthis-smartlayers-desktop').css({display:"block"});
-            }
-        }).resize();
-    </script>
-
-  <!--Include gumby.js followed by UI modules.
-  Or concatenate and minify into a single file -->
-  <script src="asset/gumby.min.js.download" gumbypath="/components/gumby"></script>
-
-
-  <!-- start number replacer -->
-  <script type="text/javascript"><!--
-  vs_account_id      = "CA6ph02KHRsF2QET";
-  //--></script>
-  <script type="text/javascript" src="asset/number-changer.js.download">
-  </script>
-  <!-- end ad widget -->
-
-
-  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
-     chromium.org/developers/how-tos/chrome-frame-getting-started -->
-
-	<script src="asset/jquery-2.0.2.min.js.download"></script>
-<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","1569837983106383");fbq("track","PageView");</script>
-<noscript>
-&lt;img height="1" width="1" src="https://www.facebook.com/tr?id=1569837983106383&amp;amp;ev=PageView&amp;amp;noscript=1"&gt;
-</noscript>
-
-	<script src="asset/testimonials.js.download"></script>
-	<script src="asset/gumby.min.js.download" gumbypath="/components/gumby"></script>
