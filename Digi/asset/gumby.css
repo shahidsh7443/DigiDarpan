@@ -90,9 +90,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 .carousel-indicators {
   position: absolute;
-  bottom: 0;
+  bottom: -50px;
   right: 0;
-  left: 0;
+  left: -70px;
   width: 100%;
   z-index: 15;
   margin: 0;
@@ -230,6 +230,9 @@ margin-top:-90px!important;
 .last-three .callus
 {
   margin-top: 5px !important;
+}
+.marlin-product-landing-page #contact {
+  margin-top:0px !important;
 }
 }
 
@@ -9955,7 +9958,7 @@ p.side-image {
 }
 
 .marlin-product-landing-page #contact {
-  margin-top: 0 !important;
+  margin-top: 100px !important;
 }
 
 .marlin-product-landing-page .drawer.active {

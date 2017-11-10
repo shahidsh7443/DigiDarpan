@@ -120,6 +120,7 @@ $(function(){
 						<li><a href="#" onclick="closeFunction()" >HOME</a></li>
 						<li><a href="#Why_DigiDarpan" onclick="closeFunction()" >Why DigiDarpan</a></li>
 						<li><a href="#contact" onclick="closeFunction()" >CONTACT</a></li>
+						<li><a href="http://admin.digidarpan.com/login">LOGIN</a></li>
 						<li class="last-three">
 
 	            <div class="field">
@@ -999,38 +1000,32 @@ Razorbee’s  Digital signage solution is leading the way to tell your messages 
 
 
 
-	<article class="happy-customers"  style="background-color: #F5F6F9 !important;">
+	<article class="happy-customers hidden-xs hidden-sm"  style="background-color: #F5F6F9 !important;">
 		<h2>Our Satisfied Clients</h2>
 	    <p>Check out the companies we have transformed below or contact us to learn more.</p>
 	    <div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
-					<img src="img/surewaves.png" alt="Filezala" style="height: 80px !important;width: 175px;">
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+				<div class="col-lg-4 col-md-3 col-sm-4 col-xs-4">
 	     <img src="img/invest365.png" alt="Safeway" style="height: 80px !important;width: 175px;">
 		 </div>
-		 <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+		 <div class="col-lg-4 col-md-3 col-sm-4 col-xs-4">
 		<img src="img/constructions.png" alt="Safeway" style="height: 80px !important;width: 175px;">
 	</div>
-	<div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+	<div class="col-lg-4 col-md-3 col-sm-4 col-xs-4">
  <img src="img/nexgen.png" alt="Safeway" style="height: 80px !important;width: 175px;">
 </div>
 </div>
 <div class="row" style="margin-top:30px;">
-	<div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
-		<img src="img/modwedding.png" alt="Filezala" style="height: 80px !important;width: 175px;">
-	</div>
-	<div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+	<div class="col-lg-4 col-md-3 col-sm-4 col-xs-4">
  <img src="img/caree4sure.png" alt="Safeway" style="height: 80px !important;width: 175px;">
 </div>
-<div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+<div class="col-lg-4 col-md-3 col-sm-4 col-xs-4">
 <img src="img/bhagawati.png" alt="Safeway" style="height: 80px !important;width: 175px;">
 </div>
-<div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+<div class="col-lg-4 col-md-3 col-sm-4 col-xs-4">
 <img src="img/happywandered.png" alt="Safeway" style="height: 80px !important;width: 175px;">
 </div>
 </div>
-    </article><!--<article class="happy-customers"  style="background-color: #F5F6F9 !important;">
+</article><article class="happy-customers hidden-lg hidden-md visible-xs"  style="background-color: #F5F6F9 !important;">
 			<h2>Still not convinced?</h2>
 		    <p>Check out the companies we have transformed below or contact us to learn more.</p>
 		<section class="section-white">
@@ -1038,27 +1033,39 @@ Razorbee’s  Digital signage solution is leading the way to tell your messages 
 
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
-      <!--<ol class="carousel-indicators">
+    <ol class="carousel-indicators">
         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="5"></li>
       </ol>
 
       <!-- Wrapper for slides -->
-      <!--<div class="carousel-inner">
+    <div class="carousel-inner">
         <div class="item active">
-          <img src="img/u4url.png" alt="...">
+      <img src="img/nexgen.png" alt="nexgen" style="height: 100px !important;width: 200px;margin-left:50px;">
         </div>
         <div class="item">
-          <img src="img/zenrays.png" alt="...">
+          <img src="img/invest365.png" alt="invest365" style="height: 100px !important;width: 200px;margin-left:50px;">
         </div>
         <div class="item">
-          <img src="img/filezala.png" alt="Filezala">
+          <img src="img/happywandered.png" alt="happywandered" style="height: 100px !important;width: 200px;margin-left:50px;">
+        </div>
+				<div class="item">
+          <img src="img/bhagawati.png" alt="bhagawati" style="height: 100px !important;width: 200px;margin-left:50px;">
+        </div>
+				<div class="item">
+          <img src="img/caree4sure.png" alt="caree4sure" style="height: 100px !important;width: 200px;margin-left:50px;">
+        </div>
+				<div class="item">
+          <img src="img/constructions.png" alt="constructions" style="height: 100px !important;width: 200px;margin-left:50px;">
         </div>
       </div>
 
       <!-- Controls -->
-      <!--<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left"></span>
       </a>
       <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
@@ -1067,8 +1074,8 @@ Razorbee’s  Digital signage solution is leading the way to tell your messages 
     </div>
 
   </div>
-</section></article>-->
-<div class="contact-panel" id="contact" style="height:90%;">
+</section></article>
+<div class="contact-panel" id="contact">
   <div class="contact-panel__header">
     <h2 class="contact-panel__title">
       How can we help improve your workplace?
