@@ -83,7 +83,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   right: 0;
   bottom: 0;
   z-index: 10;
-  padding: 0 0 45% 25px;
+  padding: 0 0 5% 25px;
   color: #fff;
   text-align: left;
 }

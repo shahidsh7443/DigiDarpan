@@ -17,6 +17,18 @@
   <script src="./asset/modernizr-2.6.2.min.js.download"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109331748-1"></script>
+
+		<?php
+
+		$pos = strrpos($_SERVER['HTTP_HOST'], "digidarpan.com");
+
+		if ($pos === false) { // note: three equal signs
+		  $url =  $_SERVER['HTTP_HOST']."/Digi";
+		}else{
+			$url =  $_SERVER['HTTP_HOST'];
+		} // Outputs: Full URL
+?>
+
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -24,7 +36,9 @@
 
   gtag('config', 'UA-109331748-1');
 </script>
+
 <script>
+
 $(function () {
 
  $('.navbar-collapse ul li a').on('click', function() {
@@ -44,6 +58,18 @@ $(function () {
  }
 </script>
 <body class="testimonials-landing about_landing about_wrapper marlin-product-landing-page digital-signage industry-landing-page" style="">
+	<?php
+	$protocol = ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
+
+	$pos = strrpos($_SERVER['HTTP_HOST'], "digidarpan.com");
+
+	if ($pos === false) { // note: three equal signs
+		$url = $protocol . $_SERVER['HTTP_HOST']."/Digi";
+	}else{
+		$url = $protocol . $_SERVER['HTTP_HOST'];
+	} // Outputs: Full URL
+
+?>
 <nav class="navbar navbar-default templatemo-nav navbar-fixed-top" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
@@ -58,8 +84,8 @@ $(function () {
 				</div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right" style="margin-right:-175px;">
-						<li class="scroll"><a href="http://localhost/Digi/" onclick="closeFunction()" >HOME</a></li>
-						<li class="scroll"><a href="http://localhost/Digi/#Why_DigiDarpan" onclick="closeFunction()" >Why DigiDarpan</a></li>
+						<li class="scroll"><a href="<?php echo $url?>" onclick="closeFunction()" >HOME</a></li>
+						<li class="scroll"><a href="<?php echo $url?>/#Why_DigiDarpan" onclick="closeFunction()" >Why DigiDarpan</a></li>
 						<li class="scroll"><a href="#contact" onclick="closeFunction()" >CONTACT</a></li>
 						<li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
@@ -100,12 +126,15 @@ $(function () {
   <style>
 	.navbar-collapse  li.active a {
 	    color:black !important;
+			background-color: #6494ed !important;
 	}
 	.navbar-collapse  li a:hover {
 	    color:black !important;
+			background-color: #6494ed !important;
 	}
 	.navbar-collapse .dm li  a:hover {
 	    color:black !important;
+			background-color: #6494ed !important;
 	}
     .cell {
       display: table-cell;
@@ -789,7 +818,7 @@ body{
 		<div class="col-md-4">
 
 		<h4 style="margin-left:-50px;margin-top:50px;" class="header1">#1)Centrally managed CMS<br/></h4>
-			<p style="font-size:16px;text-align:left;padding-left:25px;padding-top:15px;"> Also known as a Content management system, this is where the content for your digital signage system begins. Assets such as images, graphics, videos etc. are uploaded to the CMS to be displayed on your Displays.</p>
+	<p style="font-size:16px;text-align:left;padding-left:25px;padding-top:15px;"> Also known as a Content management system, this is where the content for your digital signage system begins. Assets such as images, graphics, videos etc. are uploaded to the CMS to be displayed on your Displays.</p>
 <h4 style="margin-left:-120px;" class="header2">#2)HDMI Rasberry pi</h4>
 <p style="font-size:16px;text-align:left;padding-left:25px;padding-top:15px;">Once assets are uploaded to the CMS, they’re sent across the network and received by the media player(HDMI Rasberry pi) residing at your workplace or organization. HDMI Rasberry pi connects to your network or an individual Display. HDMI Rasberry pi comes packed with a digital signage software.</p>
 </div>

@@ -44,6 +44,18 @@ $(function () {
  }
 </script>
 <body class="testimonials-landing about_landing about_wrapper marlin-product-landing-page digital-signage industry-landing-page" style="">
+	<?php
+	$protocol = ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
+
+	$pos = strrpos($_SERVER['HTTP_HOST'], "digidarpan.com");
+
+	if ($pos === false) { // note: three equal signs
+		$url = $protocol . $_SERVER['HTTP_HOST']."/Digi";
+	}else{
+		$url = $protocol . $_SERVER['HTTP_HOST'];
+	} // Outputs: Full URL
+
+	?>
 <nav class="navbar navbar-default templatemo-nav navbar-fixed-top" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
@@ -58,15 +70,15 @@ $(function () {
 				</div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right" style="margin-right:-175px;">
-						<li class="scroll"><a href="#" onclick="closeFunction()" >HOME</a></li>
-						<li class="scroll"><a href="#Why_DigiDarpan" onclick="closeFunction()" >Why DigiDarpan</a></li>
+						<li class="scroll"><a href="<?php echo $url?>" onclick="closeFunction()" >HOME</a></li>
+						<li class="scroll"><a href="<?php echo $url?>/#Why_DigiDarpan" onclick="closeFunction()" >Why DigiDarpan</a></li>
 						<li class="scroll"><a href="#contact" onclick="closeFunction()" >CONTACT</a></li>
 						<li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
         <span class="caret"></span></a>
         <ul class="dropdown-menu dm" style="background-color:#2e3192;">
-          <li class="scroll"><a href="http://localhost/Digi/" onclick="closeFunction()" >HOME</a></li>
-						<li class="scroll"><a href="http://localhost/Digi/#Why_DigiDarpan" onclick="closeFunction()" >Why DigiDarpan</a></li>
+          <li class="active"><a href="How.php" style="height: 50px;">How it Works</a></li>
+          <li class="active"><a href="Why.php" style="height: 50px;">Where its Used</a></li>
           <li class="active"><a href="http://admin.digidarpan.com/login" style="height: 50px;">Sign-in/Login</a></li>
 					<li class="active"><a href="http://admin.digidarpan.com/signup" style="height: 50px;">Sign-up</a></li>
         </ul>
@@ -100,15 +112,15 @@ $(function () {
   <style>
 	.navbar-collapse  li.active a {
 	    color:black !important;
-			background-color: #00a651 !important;
+			background-color: #6494ed !important;
 	}
 	.navbar-collapse  li a:hover {
 	    color:black !important;
-			background-color: #EE243C !important;
+			background-color: #6494ed !important;
 	}
 	.navbar-collapse .dm li  a:hover {
 	    color:black !important;
-			background-color: #00a651 !important;
+			background-color: #6494ed !important;
 	}
     .cell {
       display: table-cell;

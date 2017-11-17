@@ -117,7 +117,7 @@ $(function(){
 				</div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right" style="margin-right:-175px;">
-						<li class="scroll"><a href="#" onclick="closeFunction()" >HOME</a></li>
+						<li class="scroll active"><a href="#" onclick="closeFunction()" >HOME</a></li>
 						<li class="scroll"><a href="#Why_DigiDarpan" onclick="closeFunction()" >Why DigiDarpan</a></li>
 						<li class="scroll"><a href="#contact" onclick="closeFunction()" >CONTACT</a></li>
 						<li class="dropdown">
@@ -816,7 +816,7 @@ body{
 		.container .ci
 		{
 			left:-325px !important;
-			bottom:-20px !important;
+			bottom:-10px !important;
 			font-size:40px !important;
 		}
 		.container .ci li
@@ -827,34 +827,34 @@ body{
 		}
 		.container .cin{
 			width:151% !important;
-			height: 550px !important;
+			height: 655px !important;
 			margin-left:-227px !important;
 		}
 		.container .cin .item .img1{
 		 width:100%;
 			margin-left:0px;
 			background-size:cover;
-			margin-top:0px;
-			height:575px;
+			margin-top:74px;
+			height:580px;
 		}
 		.container .cin .item .img2{
 		 width:100%;
 			margin-left:0px;
 			background-size:cover;
-			margin-top:0px;
-			height:575px;
+			margin-top:74px;
+			height:580px;
 		}
 		.container .cin .item .img3{
 		 width:100%;
 			margin-left:0px;
 			background-size:cover;
-			margin-top:0px;
-			height:575px;
+			margin-top:74px;
+			height:580px;
 		}
 		.container .cin .cc1
 		{
-			top:475px;
-			bottom:-50px;
+
+			height: 30px;
 		}
 		.container .cin .cc1 h5
 		{
@@ -900,7 +900,6 @@ body{
 }
   </style>
 	<div class="container">
-	  <h2>Carousel Example</h2>
 	  <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
 
 	    <ol class="carousel-indicators ci">
@@ -999,7 +998,7 @@ pointer-events: none;
 	}
 	.container .cin{
 		width:109% !important;
-		height: 235px !important;
+		height: auto !important;
 		margin-left:-15px !important;
 	}
 	.container .ci {
@@ -1013,7 +1012,7 @@ pointer-events: none;
 		background-size:cover !important;
 		margin-top:0px !important;
 		height:220px !important;
-		margin-top: 15px !important;
+		margin-top: 70px !important;
 	}
 	.container .cin .item .img2{
 	 width:120% !important;
@@ -1021,7 +1020,7 @@ pointer-events: none;
 		background-size:cover !important;
 		margin-top:0px !important;
 		height:220px !important;
-		margin-top:15px !important;
+		margin-top:70px !important;
 	}
 	.container .cin .item .img3{
 	 width:120% !important;
@@ -1029,12 +1028,7 @@ pointer-events: none;
 		background-size:cover !important;
 		margin-top:0px !important;
 		height:220px !important;
-		margin-top: 15px !important;
-	}
-	.container .cin .cc1
-	{
-		top:180px !important;
-		bottom:-50px !important;
+		margin-top: 70px !important;
 	}
 	.container .cin .cc1 h5
 	{
@@ -1047,6 +1041,7 @@ pointer-events: none;
 		background-color: rgba(20, 22, 22, 0.85) !important;
 		height:22px !important;
 		width:50px !important;
+		margin-top: 30% !important;
 	}
 
 	.container .right .cr{
@@ -1054,6 +1049,7 @@ pointer-events: none;
 		background-color: rgba(20, 22, 22, 0.85) !important;
 		height:22px !important;
 		width:50px !important;
+		margin-top: 30% !important;
 	}
 }
 
