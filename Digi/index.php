@@ -37,18 +37,26 @@ $(function () {
 $(function(){
 
 	  $('.navbar ul li a').on('click', function() {
-      var _top = 40;
+      var _top1 = 40;
 
  if (this.hash=="#about") {
-    _top=20;
+    _top1=20;
   }
-  		$('html, body').animate({scrollTop: $(this.hash).offset().top - _top}, 1000);
+  		$('html, body').animate({scrollTop: $(this.hash).offset().top - _top1}, 1000);
   		return false;
   	});
 
     });
 </script>
-	 <script>
+<script>
+$(function(){
+		 $('.navbar-collapse ul li a').click(function()
+		 {
+			 $(".navbar-collapse").collapse('hide');
+		 });
+	 });
+</script>
+	<!-- <script>
  function closeFunction()
  {
 		 document.getElementById('bs-example-navbar-collapse-1').style.display = "none";
@@ -57,56 +65,12 @@ $(function(){
  function openFunction(){
 	 document.getElementById('bs-example-navbar-collapse-1').style.display = "block";
  }
-</script>
+</script>-->
 <body class="testimonials-landing about_landing about_wrapper marlin-product-landing-page digital-signage industry-landing-page" style="">
-<!-- Google Tag Manager -->
-<!-- End Google Tag Manager -->
-<!--	<div class="navcontain">
-    <nav class="navbar unfixed" gumby-fixed="1" id="nav1" style="top: 0px;">
-      <div class="row">
-	  <div class="col-md-4">
-        <a class="toggle" gumby-trigger="#nav1 > .row > ul" href="#"><i class="icon-menu"></i></a>
-          <a href="#" title="Digital Signage by Razorbee Online Solutions Pvt Ltd">
-            <img class="logo" alt="DigitalSignage/DigiDarpan" src="img/DG1.png">
-          </a>
-		  </div>
-        <div class="col-md-8">
-<div class="listcontents">
-       <ul class="navbar2">
-          <li id="first_nav-list">
-            <a href="#">Home</a>
-          </li>
-          <li><a href="#about">About Us</a>
-          </li>
-          <li><a href="#contact">Contact</a></li>
-          <li class="last-three">
-
-            <div class="field">
-
-              <div style="display:none;">
-<label>Please do not fill-in this field <input type="text" name="field_cdb8be699440776ca033fe0cea714e79e3e2ec89" value=""></label>
-</div>
-
-            </div>
-
-            <div class="callus">
-              <a href="tel:9148688883" class="switch" gumby-trigger=".callus | .search.input.switch">
-                <i class="icon-phone"></i>
-                <span>+91-9148688883</span>
-              </a>
-            </div>
-
-
-					</li></ul></div>
-
-         </div>
-        </div>
-      </nav></div>
--->
 <nav class="navbar navbar-default templatemo-nav navbar-fixed-top" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
-					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" onclick="openFunction()" >
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"  >
 						<span class="icon icon-bar"></span>
 						<span class="icon icon-bar"></span>
 						<span class="icon icon-bar"></span>
@@ -117,9 +81,9 @@ $(function(){
 				</div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right" style="margin-right:-175px;">
-						<li class="scroll active"><a href="#" onclick="closeFunction()" >HOME</a></li>
-						<li class="scroll"><a href="#Why_DigiDarpan" onclick="closeFunction()" >Why DigiDarpan</a></li>
-						<li class="scroll"><a href="#contact" onclick="closeFunction()" >CONTACT</a></li>
+						<li class="scroll active"><a href="#top">HOME</a></li>
+						<li class="scroll"><a href="#Why_DigiDarpan" >Why DigiDarpan</a></li>
+						<li class="scroll"><a href="#contact" >CONTACT</a></li>
 						<li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
         <span class="caret"></span></a>
@@ -899,7 +863,7 @@ body{
   z-index: 2;
 }
   </style>
-	<div class="container">
+	<div class="container" id="top">
 	  <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
 
 	    <ol class="carousel-indicators ci">
@@ -1002,7 +966,7 @@ pointer-events: none;
 		margin-left:-15px !important;
 	}
 	.container .ci {
-    left: -80px !important;
+    left: -90px !important;
     bottom: -40px !important;
     font-size: 40px !important;
 }
