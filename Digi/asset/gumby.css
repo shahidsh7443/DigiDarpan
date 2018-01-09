@@ -12212,16 +12212,98 @@ html {
   }
 }
 
-@media only screen and (min-width: 767px) and (max-width: 1200px) {
-  .fancy-blog .columns {
-    float: none;
-    display: inline-block;
-    width: 160px;
+@media (min-width: 777px) and (max-width: 1024px) {
+  body{
+  	overflow-x:hidden !important;
   }
-  .fancy-blog .columns.last {
+  .navbar .logo {
+    margin-left: -20%;
+}
+.navbar-right
+{
+  margin-right: 15px !important;
+}
+.container .cin .item .img1 {
+    width: 1020px !important;
+    margin-left: 165px !important;
+    background-size: cover !important;
+    margin-top: 74px !important;
+    height: 578px !important;
+}
+.container .cin .item .img2 {
+    width: 1020px !important;
+    margin-left: 165px !important;
+    background-size: cover !important;
+    margin-top: 74px !important;
+    height: 578px !important;
+}
+.container .cin .item .img3 {
+    width: 1020px !important;
+    margin-left: 165px !important;
+    background-size: cover !important;
+    margin-top: 74px !important;
+    height: 578px !important;
+}
+.container .cin {
+    width: 1190px !important;
+    height: 655px !important;
+    margin-left: -227px !important;
+}
+.container .right .cr {
+    margin-right: -55px !important;
+}
+.templatemo-nav {
     width: 100%;
+}
+.carousel-caption {
+    padding: 0 0 7% 25px !important;
+}
+.container .cin .cc1 {
+    height: 30px  !important;
+    width: 75.5%  !important;
+    margin-left: 165px  !important;
+    margin-bottom: 2px  !important;
+}
+.container .left .cl {
+    margin-left: -80px !important;
+}
+#Why_DigiDarpan .why{
+  margin-top:50px !important;
+}
+#Why_DigiDarpan .darpan1
+{
+    width: 95% !important;
+}
+.benefits__img {
+    width: 290px !important;
+}
+.happy-customers .row img
+{
+  height: 60px !important;
+width: 125px !important;
+}
+.happy-customers .ipadrow {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+body.testimonials-landing .solution-statements {
+    margin: 10px;
+}
+
+.benefits .row{
+  margin-right: 0px !important;
+}
+#Why_DigiDarpan .row
+{
+margin-right: 0px !important;
+}
+}
+@media (min-width: 480x) and (max-width: 769px) {
+  .templatemo-nav {
+      width: 78% !important;
   }
-  .fancy-blog .form-panel .columns.last {
-    margin-left: 0;
+  .container .cin {
+      width: 134% !important
+      margin-left: -227px !important;
   }
 }

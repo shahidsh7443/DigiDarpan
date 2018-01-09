@@ -124,6 +124,9 @@ $(function () {
 
 
   <style>
+	#How .row{
+		margin-right: 0px !important;
+	}
 	.navbar-collapse  li.active a {
 	    color:black !important;
 			background-color: #6494ed !important;
@@ -814,7 +817,7 @@ body{
 		<h2 class="text-center">How <strong>DigiDarpan Works.</strong></h2>
 <img src="img/Digital-Signage-Components.png" class="img-rounded how1" style="background-size:cover; !important;background-repeat:no-repeat !important;width:50%;margin-top: 55px;height:150px;">
 </div>
-<div class="row">
+<div class="row hidden-md">
 		<div class="col-md-4">
 
 		<h4 style="margin-left:-50px;margin-top:50px;" class="header1">#1)Centrally managed CMS<br/></h4>
@@ -826,7 +829,7 @@ body{
 <img src="img/img78.jpg" class="img-rounded how" style="background-size:cover; !important;background-repeat:no-repeat !important;width:99%;margin-top: 55px;height:475px;">
 </div>
 </div>
-<div class="row hidden-xs hidden-sm">
+<div class="row hidden-xs hidden-sm hidden-md">
 <div class="col-md-8">
 <img src="img/Digital_Signage (1).jpg" class="img-rounded" style="background-size:cover; !important;background-repeat:no-repeat !important;width:99%;margin-top: 0px;">
 </div>
@@ -835,26 +838,44 @@ body{
 <p style="font-size:16px;text-align:left;padding-left:25px;padding-top:15px;">The component of a digital signage system that resides at ur workplace connected to our media player(HDMI Rasberry pi). The media player acting as an Interface between CMS and the Display ,recieves the Data from network and displayss it onto your Display as slides each visible for defined number of time by the uploader of Data.
 <h4 style="margin-left:-25px;" >#4)Content publishing team</h4>
 <p style="font-size:16px;text-align:left;padding-left:25px;padding-top:15px;">A team led by a Senior Content Manager,under whose guidance the Team designs attractive and Dynamic contents for your workplace with effective results and keeps updating the contents sequentially as per the at a defined interval of time(Day).</p>
-
-<!--<h5 style="margin-top:35px;" class="hidden-lg hidden-md visible-sm"><strong>Value</strong></h5>
-<p class="hidden-lg hidden-md visible-sm visible-xs" style="font-size:13px;text-align:left;">Razorbee is a sincere company &nbsp;including a group of experienced developer and IT specialist with a straight forward vision. To maintain customer’s &nbsp;satisfaction and long-term relationship with them is our main vision that we always hold in hand when running the organisation.</p>
---></div>
 </div>
+</div>
+<!--Medium-->
+<div class="row hidden-xs hidden-sm hidden-lg">
+		<div class="col-md-12">
+
+		<h4 style="margin-left:-50px;margin-top:50px;" class="header1">#1)Centrally managed CMS<br/></h4>
+	<p style="font-size:16px;text-align:left;padding-left:25px;padding-top:15px;"> Also known as a Content management system, this is where the content for your digital signage system begins. Assets such as images, graphics, videos etc. are uploaded to the CMS to be displayed on your Displays.</p>
+<h4 style="margin-left:-120px;" class="header2">#2)HDMI Rasberry pi</h4>
+<p style="font-size:16px;text-align:left;padding-left:25px;padding-top:15px;">Once assets are uploaded to the CMS, they’re sent across the network and received by the media player(HDMI Rasberry pi) residing at your workplace or organization. HDMI Rasberry pi connects to your network or an individual Display. HDMI Rasberry pi comes packed with a digital signage software.</p>
+</div>
+<div class="col-md-12">
+<img src="img/img78.jpg" class="img-rounded how" style="background-size:cover; !important;background-repeat:no-repeat !important;width:99%;margin-top: 55px;height:475px;">
+</div>
+</div>
+<div class="row hidden-xs hidden-sm hidden-lg">
+<div class="col-md-12">
+<h4 style="margin-left:0px;" >#3)LFD/LED High resolution TV</h4>
+<p style="font-size:16px;text-align:left;padding-left:25px;padding-top:15px;">The component of a digital signage system that resides at ur workplace connected to our media player(HDMI Rasberry pi). The media player acting as an Interface between CMS and the Display ,recieves the Data from network and displayss it onto your Display as slides each visible for defined number of time by the uploader of Data.
+<h4 style="margin-left:-25px;" >#4)Content publishing team</h4>
+<p style="font-size:16px;text-align:left;padding-left:25px;padding-top:15px;">A team led by a Senior Content Manager,under whose guidance the Team designs attractive and Dynamic contents for your workplace with effective results and keeps updating the contents sequentially as per the at a defined interval of time(Day).</p>
+</div>
+<div class="col-md-12">
+<img src="img/Digital_Signage (1).jpg" class="img-rounded" style="background-size:cover; !important;background-repeat:no-repeat !important;width:99%;margin-top: 0px;">
+</div>
+</div>
+<!--End Medium-->
 <div class="row hidden-lg hidden-md visible-xs visible-sm">
 <div class="col-md-4">
 <h4 style="margin-left:0px;" class="header3">#3)LFD/LED High resolution TV</h4>
 <p style="font-size:16px;text-align:left;padding-left:25px;padding-top:15px;">The component of a digital signage system that resides at ur workplace connected to our media player(HDMI Rasberry pi). The media player acting as an Interface between CMS and the Display ,recieves the Data from network and displayss it onto your Display as slides each visible for defined number of time by the uploader of Data.
 <h4 style="margin-left:-25px;" class="header4">#4)Content publishing team</h4>
 <p style="font-size:16px;text-align:left;padding-left:25px;padding-top:15px;">A team led by a Senior Content Manager,under whose guidance the Team designs attractive and Dynamic contents for your workplace with effective results and keeps updating the contents sequentially as per the at a defined interval of time(Day).</p>
-
-<!--<h5 style="margin-top:35px;" class="hidden-lg hidden-md visible-sm"><strong>Value</strong></h5>
-<p class="hidden-lg hidden-md visible-sm visible-xs" style="font-size:13px;text-align:left;">Razorbee is a sincere company &nbsp;including a group of experienced developer and IT specialist with a straight forward vision. To maintain customer’s &nbsp;satisfaction and long-term relationship with them is our main vision that we always hold in hand when running the organisation.</p>
---></div>
+</div>
 <div class="col-md-8">
 <img src="img/Digital_Signage (1).jpg" class="img-rounded" style="background-size:cover; !important;background-repeat:no-repeat !important;width:99%;margin-top: 0px;">
 </div>
 </div>
-
 </div>
 		</section>
 <div class="contact-panel" id="contact">

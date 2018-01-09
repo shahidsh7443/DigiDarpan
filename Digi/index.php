@@ -6,13 +6,14 @@
 	    <title>DigiDarpan DigitalSignage Solutions</title>
 	    <meta name="Digital Signage" content="Digital Signage Solutions designed for the Workplace by Razorbee Online Solutions Pvt Ltd">
 	    <meta name="Digital Signage" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<!-- Facebook Metadata /-->
 				<link rel="stylesheet" href="css/templatemo-style.css">
 		  <link rel="shortcut icon" href="img/favicon.ico">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  
   <link rel="stylesheet" href="asset/gumby.css">
   <script src="./asset/modernizr-2.6.2.min.js.download"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -790,7 +791,7 @@ body{
 			border-radius:0px !important;
 		}
 		.container .cin{
-			width:151% !important;
+			width:151%;
 			height: 655px !important;
 			margin-left:-227px !important;
 		}
@@ -900,17 +901,23 @@ body{
 	    </div>
 
 	    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-	      <span class="glyphicon glyphicon-chevron-left cl"></span>
-	      <span class="sr-only">Previous</span>
+		<span class="glyphicon glyphicon-chevron-right cr"></span>
+	      <span class="sr-only">Next</span>
 	    </a>
 	    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-	      <span class="glyphicon glyphicon-chevron-right cr"></span>
-	      <span class="sr-only">Next</span>
+	      <span class="glyphicon glyphicon-chevron-left cl"></span>
+	      <span class="sr-only">Previous</span>
 	    </a>
 	  </div>
 	</div>
 
 <style>
+.benefits .row{
+	margin-right: 0px !important;
+}
+#Why_DigiDarpan .row{
+	margin-right: 0px !important;
+}
 .ci .carousel-caption{
 	bottom:-545px;
 }
@@ -1018,28 +1025,13 @@ pointer-events: none;
 }
 
 </style>
-	<!--<article id="whoweare-mast" style="background-image: url('img/DigitalSignage2.jpg');margin-top: 5%;">
-		<div class="overlay">
-		<div class="masthead__whoweare page-head">
-
-			    <h1 class="masthead__heading">A Digital Signage Solution for Improving Workplace Communication</h1>
-          <div class="masthead__imgContainer">
-          </div>
-
-	    </div>
-		</div>
-	</article>-->
-		<!--<header class="sect-head-container" id="exec_team">
-			<div class="sect-head">
-				<h2 class="benefits__mainHeading">The Benefits of Digital Signage</h2>
-			</div>
-		</header>-->
 		<section id="Why_DigiDarpan" style="background-color: #F5F6F9 !important;">
 		<div class="row" style="padding-top:40px;">
-		<div class="col-md-4">
-		<h3>Why <strong>DigiDarpan?</strong></h3>
+			<h3 class="hidden-lg hidden-sm hidden-xs text-centre" style="font-size: 2.875rem">Why <strong>DigiDarpan?</strong></h3>
+		<div class="col-lg-4 col-md-12">
+		<h3 class="hidden-md" >Why <strong>DigiDarpan?</strong></h3>
 		<ol>
-		<p style="font-size:16px;text-align:left;padding-left:5px; padding-top:0px;">
+		<p style="font-size:16px;text-align:left;padding-left:5px; padding-top:0px;" class="why">
 			DigiDarpan is a complete digital signage solution.No matter which market you’re in, DigiDarpan is a powerful solution,used to increase brand awareness and build customer loyalty through eye-caching visual display experience.
 </p>
 <p style="font-size:16px;text-align:left;padding-left:5px;padding-top:15px;">
@@ -1052,13 +1044,13 @@ With integrated, end-to-end digital signage solution for customer, DigiDarpan is
 Razorbee’s  Digital signage solution is leading the way to tell your messages and brand  from  medium to new levels.
 </p>
 </div>
-<div class="col-md-8">
-<img src="img/dh1.jpg" class="img-rounded" style="background-size:cover; !important;background-repeat:no-repeat !important;width:100%;margin-top: 55px;">
+<div class="col-lg-8 col-md-12">
+<img src="img/dh1.jpg" class="img-rounded darpan1" style="background-size:cover; !important;background-repeat:no-repeat !important;width:100%;margin-top: 55px;">
 </div>
 </div>
-<div class="row hidden-xs hidden-sm">
+<div class="row hidden-xs hidden-sm hidden-md">
 <div class="col-md-8">
-<img src="img/digital_signage-2.jpg" class="img-rounded" style="background-size:cover; !important;background-repeat:no-repeat !important;width:100%;margin-top: 0px;">
+<img src="img/digital_signage-2.jpg" class="img-rounded darpan2" style="background-size:cover; !important;background-repeat:no-repeat !important;width:100%;margin-top: 0px;">
 </div>
 <div class="col-md-4">
 	<p style="font-size:16px;text-align:left;padding-left:20px;padding-top:50px;">
@@ -1070,6 +1062,21 @@ Razorbee’s  Digital signage solution is leading the way to tell your messages 
 <!--<h5 style="margin-top:35px;" class="hidden-lg hidden-md visible-sm"><strong>Value</strong></h5>
 <p class="hidden-lg hidden-md visible-sm visible-xs" style="font-size:13px;text-align:left;">Razorbee is a sincere company &nbsp;including a group of experienced developer and IT specialist with a straight forward vision. To maintain customer’s &nbsp;satisfaction and long-term relationship with them is our main vision that we always hold in hand when running the organisation.</p>
 --></div>
+</div>
+<div class="row hidden-xs hidden-sm hidden-lg">
+<div class="col-md-12">
+	<p style="font-size:16px;text-align:left;padding-left:20px;padding-top:50px;">
+	At DigiDarpan, we design every Digital Signage Solution from the ground up, to meet your needs. Whether it's a single professional display network, encompassing hundreds of professional displays or interactive signage solution.
+	</p>
+	<p style="font-size:16px;text-align:left;padding-left:20px;padding-top:15px;">
+	Take engagement to a new level with DigiDarpan that reach audiences in many industries, including hospitality, healthcare, retail, entertainment, restaurant and school.
+	</p>
+<!--<h5 style="margin-top:35px;" class="hidden-lg hidden-md visible-sm"><strong>Value</strong></h5>
+<p class="hidden-lg hidden-md visible-sm visible-xs" style="font-size:13px;text-align:left;">Razorbee is a sincere company &nbsp;including a group of experienced developer and IT specialist with a straight forward vision. To maintain customer’s &nbsp;satisfaction and long-term relationship with them is our main vision that we always hold in hand when running the organisation.</p>
+--></div>
+<div class="col-md-12">
+<img src="img/digital_signage-2.jpg" class="img-rounded darpan2" style="background-size:cover; !important;background-repeat:no-repeat !important;width:100%;margin-top: 0px;">
+</div>
 </div>
 <div class="row hidden-lg hidden-md">
 
@@ -1240,26 +1247,46 @@ Razorbee’s  Digital signage solution is leading the way to tell your messages 
 	<article class="happy-customers hidden-xs hidden-sm"  style="background-color: #F5F6F9 !important;">
 		<h2>Our Satisfied Clients</h2>
 	    <p>Check out the companies we have transformed below or contact us to learn more.</p>
-	    <div class="row">
+	    <div class="row hidden-md">
 				<div class="col-lg-4 col-md-3 col-sm-4 col-xs-4">
-	     <img src="img/invest365.png" alt="Safeway" style="height: 80px !important;width: 175px;">
+	     <img src="img/invest365.png" alt="Safeway" style="height: 80px;width: 175px;">
 		 </div>
 		 <div class="col-lg-4 col-md-3 col-sm-4 col-xs-4">
-		<img src="img/constructions.png" alt="Safeway" style="height: 80px !important;width: 175px;">
+		<img src="img/constructions.png" alt="Safeway" style="height: 80px;width: 175px;">
 	</div>
 	<div class="col-lg-4 col-md-3 col-sm-4 col-xs-4">
- <img src="img/nexgen.png" alt="Safeway" style="height: 80px !important;width: 175px;">
+ <img src="img/nexgen.png" alt="Safeway" style="height: 80px;width: 175px;">
 </div>
 </div>
-<div class="row" style="margin-top:30px;">
+<div class="row hidden-md" style="margin-top:30px;">
 	<div class="col-lg-4 col-md-3 col-sm-4 col-xs-4">
- <img src="img/caree4sure.png" alt="Safeway" style="height: 80px !important;width: 175px;">
+ <img src="img/caree4sure.png" alt="Safeway" style="height: 80px ;width: 175px;">
 </div>
 <div class="col-lg-4 col-md-3 col-sm-4 col-xs-4">
-<img src="img/bhagawati.png" alt="Safeway" style="height: 80px !important;width: 175px;">
+<img src="img/bhagawati.png" alt="Safeway" style="height: 80px;width: 175px;">
 </div>
 <div class="col-lg-4 col-md-3 col-sm-4 col-xs-4">
-<img src="img/happywandered.png" alt="Safeway" style="height: 80px !important;width: 175px;">
+<img src="img/happywandered.png" alt="Safeway" style="height: 80px ;width: 175px;">
+</div>
+</div>
+<div class="row hidden-lg hidden-sm hidden-xs ipadrow">
+	<div class="col-lg-4 col-md-2 col-sm-4 col-xs-4">
+ <img src="img/invest365.png" alt="Safeway" style="height: 80px;width: 175px;">
+</div>
+<div class="col-lg-4 col-md-2 col-sm-4 col-xs-4">
+<img src="img/constructions.png" alt="Safeway" style="height: 80px;width: 175px;">
+</div>
+<div class="col-lg-4 col-md-2 col-sm-4 col-xs-4">
+<img src="img/nexgen.png" alt="Safeway" style="height: 80px;width: 175px;">
+</div>
+<div class="col-lg-4 col-md-2 col-sm-4 col-xs-4">
+<img src="img/caree4sure.png" alt="Safeway" style="height: 80px ;width: 175px;">
+</div>
+<div class="col-lg-4 col-md-2 col-sm-4 col-xs-4">
+<img src="img/bhagawati.png" alt="Safeway" style="height: 80px;width: 175px;">
+</div>
+<div class="col-lg-4 col-md-2 col-sm-4 col-xs-4">
+<img src="img/happywandered.png" alt="Safeway" style="height: 80px ;width: 175px;">
 </div>
 </div>
 </article><article class="happy-customers hidden-lg hidden-md visible-xs"  style="background-color: #F5F6F9 !important;">
